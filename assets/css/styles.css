@@ -432,6 +432,7 @@ padding: 15px;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
+  padding: 0px 5px;
 }
 .work__img img{
   transition: 1s;
