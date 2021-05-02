@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"><img src="/assets/img/sss.png" class="img-fluid" alt=""></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href=" https://drive.google.com/file/d/1M9BL0MbLD3jOzc3wNl-1sG8TJ43tX831/view?usp=sharing" class=""><button class="btn-brand">Resume</button></a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+           <div class="banner">
+            <section class="home bd-grid home-section section" id="home">
+                <div class="effect-wrap">
+                   <div class="effect effect-1">
+                   </div>
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Shafikul Islam</span><br>
+                        <ul class="programmer">
+                        <li>Web Developer</li>
+                        <li>Programmer</li>
+                       </ul>
+                    </h1>
+                    <a href="#contact" class="button ">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/md-shafikul-islam-367068211/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-medium'></i></a>
+                    <a href="https://github.com/Shafiqqislam" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+               <div class="home-img">
+                <div class="home__img img-box inner-shadow">    
+                    <img src="assets/img/globe.jpg" class=" outer-shadow" alt="">
+                </div>
+               </div>
+            </section>
+           </div>
+
+            <!--===== ABOUT =====-->
+            <section class="mt-5 mb-3" id="about" >
+                <div class="container about">
+                    <div class="row">
+                        <div class="col-sm-6 img-box inner-shadow about__img">
+                            <img src="/assets/img/globe.jpg" class="img-fluid" alt="">
+                           <h3> <span class="home__title-color">I'm</span> Shafikul Islam</h3>
+                          <p>I am a Junior Front End Developer. I'm interested in JavaScript-based software technologies. Working in the software industry with the latest web technology of various local and multinational software / IT agencies in Bangladesh and growing rapidly with increasing responsibilities</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <h2  class="under-line about__subtitle">My Skills Set</h2>
+                            <div class="technology about__text">
+                                <span>JavaScript</span>
+                                <span>ES6</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                                <span>Redux.js</span>
+                                <span>Gatsby.js</span>
+                                <span>Git</span>
+                                <span>NPM</span>
+                                <span>VS Code</span>
+                                <span>REST API</span>
+                                <span>Firebase</span>
+                            </div>
+                            <hr>
+                            <h2 class=" about__text">I want to work with</h2>
+                           
+                            <div class="technology about__text">
+                                <span>JavaScript</span>
+                                <span>React.js</span>
+                                <span>Gatsby.js</span>
+                                <span>REST API</span>
+                                <span>Redux.js</span>
+                            </div>
+                            <hr>
+                            <h2 class=" about__text">I prefer not to work with</h2>
+                            <div class="technology about__text">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>Wordpress</span>
+                                <span>jQuery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--===== WORK =====-->
+            <section class="work section banner" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/restore-repair-service-59996.web.app_.png" alt="">
+                        <h4>Restore repair service</h4>
+                        <p >A single page Restore repair Service based app, Restore – Computer, Mobile & Digital Repair Service, where people can select service in their cart and checkout the cart with their information.</p>
+                        <div class="technology">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Stripe.js</span><span>Firebase</span><span>Bootstrap4</span>
+                        </div>
+                        <hr>
+                        <div class="home__social">
+                            <a href="https://restore-repair-service-59996.web.app/" class="home__social-icon"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="https://github.com/Shafiqqislam/restore-repair-service-client" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/haatbazar-fd8c9.web.app_home.png" alt="">
+                        <h4>HaatBazar</h4>
+                        <p >A single-page web app with a dashboard where people can  buy any product they like by clicking the buy now button, and then the page
+                            Will redirect them to a checkout page. For now, users can buy 1 product at a time.</p>
+                        <div class="technology">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Firebase</span><span>Bootstrap4</span>
+                        </div>
+                        <hr>
+                        <div class="home__social">
+                            <a href="https://haatbazar-fd8c9.web.app/" class="home__social-icon"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="https://github.com/Shafiqqislam/HaatBazar-Client" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/doctors portal.png" alt="">
+                        <h4>Doctor's Portal</h4>
+                        <p >A Single page web app with dashboard where people can pick the date and time and fix an appointment. A doctor can review his appointments and prescribe medicine to a Patient from his dashboard.</p>
+                        <div class="technology ">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Firebase</span><span>Bootstrap4</span>
+                        </div>
+                        <hr>
+                        <div class="home__social">
+                            <a href="https://haatbazar-fd8c9.web.app/" class="home__social-icon"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="https://github.com/Shafiqqislam/HaatBazar-Client" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/Burj al arab.png" alt="">
+                        <h4>Burj Al Arab</h4>
+                        <p>A single-page web application where people can choose the date and time and fix the booking seat and view their booking information</p>
+                        <div class="technology">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Firebase</span><span>Bootstrap4</span>
+                        </div>
+                        <hr>
+                        <div class="home__social">
+                            <a href="" class="home__social-icon"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="https://github.com/Shafiqqislam/burj-al-arab" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/share-riders.web.app_.png" alt="">
+                        <h4">Share Riders</h4>
+                        <p>A single-page Ridesharing Service based app where people can choose one service they like by clicking the book now button, and then the page will redirect them to a destination page. For now, users can take 1 service at a time.</p>
+                        <div class="technology">
+                            <span>React.js</span><span>REST API</span><span>Firebase</span><span>Bootstrap4</span>
+                        </div>
+                        <hr>
+                        <div class="home__social">
+                            <a href="https://share-riders.web.app/" class="home__social-icon"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="https://github.com/Shafiqqislam/Share-Riders" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                   
+                    <div class="work__img">
+                        <img src="assets/img/sport-zone-router.netlify.app_.png" alt="">
+                        <h4>Sports Zone</h4>
+                        <p>It is an API-based APP for showing Sports Zone's Team Players are shown Club Details and Gender Checking with Conditions and Pictures.</p>
+                        <div class="technology">
+                            <span>React.js</span><span>REST API</span><span>Bootstrap4</span>
+                        </div>
+                        <hr>
+                        <div class="home__social">
+                            <a href="https://sport-zone-router.netlify.app/" class="home__social-icon"><i class="fas fa-external-link-square-alt"></i></a>
+                            <a href="https://github.com/Shafiqqislam/Share-Riders" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" id="toName" placeholder="Name" class="contact__input">
+                        <input type="mail" id="fromName" placeholder="Email" class="contact__input">
+                        <textarea name="" id="msg" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" onclick="sendMail()" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Shafikul</p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/dkrone.ahamed/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_gaEHlqA5C4aPmdqc411Z3");
+})();
+</script>
+    </body>
+</html>
